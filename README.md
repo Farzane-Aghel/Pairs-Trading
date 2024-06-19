@@ -12,7 +12,6 @@ The project was executed in two main steps:
 1. **Cointegration Identification:** First, we identify pairs of stocks whose price movements are historically correlated. This involves statistical tests to find pairs that are cointegrated.
 2. **Spread Analysis:** We then monitor the spread between these pairs. Specifically, we look for moments where the spread exceeds one standard deviation from its mean. This indicates a potential trading opportunity.
 
-For instance, if stocks X and Y usually move in tandem, but at a particular point, the price of X is disproportionately higher compared to Y, we predict that Y's price will increase (or X's will decrease), returning to their typical relative pricing. In such cases, we would sell X and buy Y.
 
 ## Tools and Technologies
 - **SQL:** Used for querying stock price data from the CRSP database.
